@@ -1,0 +1,76 @@
+body{
+    font-size: 14px;
+}
+
+.header{
+}
+
+.topBar{
+    height: 31px;
+    background: #F7F7F7;
+}
+
+.topBar a{
+    color: #656565;
+}
+
+.comWidth{
+    width: 1000px;
+    margin: 0 auto;
+    line-height: 31px;
+}
+
+.collection{
+}
+
+.a_collection{
+    font-size:14px;
+    font-weight: bold;
+    background: url(img/icon/collection.jpg) no-repeat left center;
+    padding-left: 20px;
+}
+
+.logit{
+    width: 300px;
+}
+
+.logit a{
+    padding-left: 5px;
+}
+
+.logoBar{
+    background: #1D7AD9;
+    height: 85px;
+}
+
+.dog{
+    height: 60px;
+    width: 110px;
+    margin-left: 41px;
+    margin-top: 13px;
+}
+
+.searchBox{
+    padding=left
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
