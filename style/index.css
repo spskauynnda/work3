@@ -1,0 +1,540 @@
+body{
+    font: 12px "Microsort YaHei","微软雅黑";
+    background: #F0F0F0;
+}
+
+.header{
+}
+
+.topBar{
+    height: 31px;
+    line-height: 31px;
+    font-size: 14px;
+    font-family: "宋体";
+}
+
+.topBar a{
+    color: #656565;
+}
+
+.topBar a:hover{color:red}
+
+.comWidth{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.collection{
+}
+
+.a_collection{
+    font:14px "宋体";
+    font-weight: bold;
+    background: url(../img/icon/collection.jpg) no-repeat left center;
+    padding-left: 20px;
+}
+
+.logit{
+    width: 300px;
+}
+
+.logit a{
+    padding-left: 5px;
+}
+
+.logoBar{
+    background: #1D7AD9;
+    height: 85px;
+}
+
+.dog{
+    height: 60px;
+    width: 110px;
+    margin-left: 41px;
+    margin-top: 13px;
+}
+
+.searchBox{
+    padding-left: 185px;
+    padding-top: 23px;
+}
+
+.search_text{
+    height: 35px;
+    width: 350px;
+    padding: 0 5px;
+    background: #FFF;
+    /*为何什么都不写也能垂直居中？是浏览器自动的吗？*/line-height:35px\9;
+}
+
+.search_btn{
+    height: 35px;
+    width: 75px;
+    background: #FF8c00;
+    color: white;
+    font: 14px "Microsort YaHei","微软雅黑";
+}
+
+.shopCar{
+    height: 35px;
+    width: 145px;
+    margin-top: 23px;
+    margin-right: 40px;
+    background: #FF8c00;
+    font: 14px/35px  "Microsort YaHei","微软雅黑";
+    color: white;
+}
+
+.shopIcon{
+    width: 87px;
+    height: 100%;
+    text-indent: 40px;
+    background: url(../img/icon/shopIcon.jpg) no-repeat 10px center; /*为何写成url(../img/icon/shopIcon.jpg)却无法识别了？*/
+    border-right:1px solid #b0b0b0;
+    text-align: center;
+}
+
+.shopNum{
+    width: 28px;
+    height: 100%;
+    background: url(../img/icon/shopNum.jpg) no-repeat 33px center;
+    padding-right:29px;
+    text-align: right;
+}
+
+.menuBar{
+    width:100%;
+    height:35px;
+    background :#1369c0;
+}
+
+.menuDl,.menuCy h4{
+    font: 16px  "Microsort YaHei","微软雅黑";
+    line-height: 35px;
+    text-align: center;
+    color: white;
+}
+
+.menuDl dt{
+    float: left;
+    height: 35px;
+    width: 112px;
+}
+
+.menuCy{
+    height: 35px;
+    width: 190px;
+    position: relative;
+}
+
+.menuCy i{
+    height: 7px;
+    width: 17px;
+    overflow: hidden;
+    background: url(../img/icon/menuCy.jpg) left center no-repeat ;
+    margin-left: 11px;
+    display: inline-block;
+}
+
+
+.current{
+    background: #4593Fd;
+}
+/*弹出框*/
+.menuCy_list{
+    width: 100%;
+    position: absolute;
+    left: 0; top: 35px;
+}
+
+.menuCy_list_c{
+    background: #4593Fd;
+    padding: 14px 10px;
+    border-top: 1px solid #5aa1fe;
+    border-bottom: 1px solid #3487f2;
+}
+
+.menuCy_list .b{
+    font: 14px  "Microsort YaHei","微软雅黑";
+    height: 22px;
+    background: url(../img/icon/menuCy_list.jpg) no-repeat right center;
+}
+
+.menuCy_list a{      /*为什么直接定b的颜色是无效的？*/
+    color: white;
+}
+
+.menuCy_list .aLink_bg{
+    height: 20px;
+    width: 48px;
+    background: url(../img/aLink_bg.png) no-repeat left center;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: underline;
+}
+
+/*banner*/
+.banner{    margin-bottom: 15px; }          /*样例的banner为什么会有高度？？？*/
+.bannerBar{    position: relative;    overflow: hidden;}
+.img_Box{    position: absolute;    left:0; top:0;  }
+.img_Box li{float: left}
+.img_Box img{    display: block;}
+
+.bannerBar_big{    width: 810px;    height: 326px;}
+.bannerBar_big .img_Box{    width: 1620px;    height: 326px;}
+.bannerBar_big img {width: 810px;    height: 326px;}
+
+.bannerBar_sm,
+.bannerBar_sm img{  width:190px;    height: 400px;}
+.bannerBar_sm img_Box{  width:380px;    height: 400px;}
+
+
+.img_Num{
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    left:0;  bottom: 20px;
+    text-align: center;
+}
+
+.img_Num a{
+    height: 5px;
+    width: 20px;
+    background: #FFF;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 3px;
+ }
+
+.img_Num .active{
+    background: #FF7700;
+}
+
+/*商品标题*/
+.shopTitle{
+    height: 44px;
+    line-height: 44px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.shopTitle h3{
+    font-size: 20px;
+    margin-left: 15px;
+    font-weight: normal;
+}
+
+.icon{
+    height: 44px;
+    width: 44px;
+    background: url(../img/icon/shoptitle.jpg) no-repeat left top;
+}
+
+.more{
+    font-size: 14px;
+    font-family: "宋体";
+    color: #656565;
+}
+
+.more:hover{text-decoration:underline;color:red}
+
+/*商品列表*/
+.shopList{
+    height: 410px;
+}
+.shopList .leftArea{
+    width: 190px;
+}
+.shopList .rightArea{
+    width: 808px;
+    height: 396px;
+    border: #999 solid 1px;
+    border-bottom: #FF7201 solid 3px;
+    overflow: hidden;
+}
+
+.shopList_item1{
+    width: 201px;
+    height: 279px;
+    border-right: #999 solid 1px;
+    border-bottom: #999 solid 1px;
+    float: left;  }
+.shopList_item1 img{
+    width:100%;
+    height: 218px;
+    display: block;  }
+.shopList_item1 h3{
+    font-size: 16px;
+    text-align: center;  }
+.shopList_item1 p{
+    text-align: center;
+    color: #FF7300;  }
+
+.shopList_item2{
+    width:201px;
+    height: 109px;
+    border-right: #999 solid 1px;
+    float:  left;
+    padding-top: 10px;}
+.shopList_item2 img{
+    height: 95px;
+    width: 95px;}
+.shopList_item2 h3{
+    font-weight: normal;
+    padding-top: 8px;
+    color: #FF7300;}
+.shopList_item2 p{
+    color: #181818;
+    font-size: 16px;}
+
+
+/*产品分类页*/
+/*产品细节*/
+.menuDetail{
+    width: 184px;
+    border: 1px solid #d0d0d0;
+    position: absolute;
+    left:0;  top:52px;}
+
+.menuDetail dl{
+    width: 145px;
+    margin-left: 20px;
+    float: left;
+    border-bottom: 1px solid #d0d0d0;
+    line-height: 33px;
+    color:#555555;}
+.menuDetail dl dt{
+    font-size: 12px;
+    height: 33px;
+    font-weight: bold;}
+.menuDetail dl h5{
+    font-size: 15px;
+    font-weight: bold;
+    height: 33px;
+}
+.menuDetail a{
+    width: 72px;
+    height: 24px;
+    color: black;
+    display: block;
+    float: left;
+    padding-bottom: 10px;
+}
+.menuDetail a:hover{color: red;}
+
+
+/*产品列表*/
+.bannerBar_title{
+    height: 43px;
+    width: 808px;
+    font-size: 14px;
+    line-height: 43px;
+    text-indent: 15px;
+    border-bottom: 2px solid #c0c0c0;  }
+.bannerBar_title h3{
+    width: 200px;
+    border-bottom: 2px solid blue;  }
+.products{    width: 808px;    height: 600px;  }
+.products_item{    width: 190px;    height: 300px;  float: left;}
+.products p{    padding-left: 15px;  line-height: 20px;}
+.products img{    float: left;    }
+.p2{    color: #d4105a;    font-weight: bold;}
+.p3{    float: left;    }
+.products p img{    padding-top: 3px;}
+
+
+
+/*筛选页*/
+/*产品分类条*/
+.menuClass_title{
+    height: 36px;
+    border-bottom: 1px solid #d0d0d0;
+    text-align: center;}
+.mC_title_s{
+    font-size: 16px;
+    line-height: 36px;
+    text-shadow: 0 1px #ccc;
+    color: black;  }
+.menuClass_text{
+    border-bottom: 1px dotted #d0d0d0;  }
+.menuClass_text ul{
+    padding-top: 12px;
+    padding-left: 25px;
+    color: #55555;
+    border-bottom: 1px dotted #d0d0d0;
+    overflow: hidden;}  /*overflow的清除浮动效果？*/
+.menuClass_text ul p{
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 5px;  }
+.menuClass_text ul li{
+    padding-left: 10px;     }
+.menuClass_text ul li a{
+    clear: both;
+    width: 150px;
+    padding-bottom:0}
+.menuClass_img{
+    background: white;  }
+.menuClass_item{
+    padding-top: 10px;
+    display: block;
+    height: 90px;}
+.menuClass_item .leftArea{
+    width: 83px;}
+.menuClass_item .leftArea img{
+    height: 70px;
+    width: 70px;}
+.menuClass_item .rightArea{
+    padding-top: 5px;
+    padding-right: 10px;
+    width: 90px;
+    color: #555555;}
+
+
+/*item*/
+.rightArea_detail{
+    margin-top: 17px;
+    width: 808px;
+}
+.itemBox{
+    width: 795px;
+    margin-left: 15px;
+}
+.item_list{
+    padding-top: 10px;}
+.item_list dt{
+    font-size: 14px;
+    width: 75px;
+    text-align: right;
+    color: #b0b0b0;
+    float: left;}
+.item_list{
+    clear: both;
+    border-bottom: 1px solid #A0A0A0;
+    overflow: hidden;  /*intersting!   原理不太清楚*/
+}
+.item_list dd{
+    padding-bottom: 10px;
+    overflow: hidden;  /*intersting!*/
+}
+.item_list dd>a{
+    font-size: 14px;
+    background: #1369C0;
+    color: white;
+    margin-left: 48px;  }
+.item_list li{
+    width: 105px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    float: left;  }
+.item_list li>a{
+    color: #1369C0;
+}
+.item_list_more{
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+
+
+.itemCmt{
+    margin-top: 12px;}
+
+.itemCmt_top{
+    border: 1px solid #C0C0C0;
+    padding-left: 10px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 10px;}
+.itemCmt_top select{
+    color: #a0a0a0;
+    margin-left: 10px;
+    height: 29px;
+    width: 100px;
+    border: 1px solid #b0b0b0;}
+.itemCmt_top input{
+    margin-left: 380px;
+    margin-top: 8px;}
+.checkbox_after{
+    padding-left: 20px;
+    color: #a0a0a0;}
+.total{
+    font-size: 16px;
+    font-weight: bold;
+    color: #d70000;  }
+
+.itemCmt_one{
+    margin-left: 40px;
+    margin-bottom: 20px;
+    width: 220px;
+    float: left;
+    line-height:25px;
+}
+.itemCmt_one>img{
+    height: 230px;
+    width: 220px;
+}
+.itemCmt_s1{
+    font-size: 14px;
+    font-weight: bold;
+    color: #d70000;
+}
+.itemCmt_s2{
+    margin-left: 20px;
+    color: #1369C0;
+}
+
+
+
+
+
+
+
+.car{
+    height: 22px;
+    width: 90px;
+    text-indent: 8px;
+    color: #555555;
+    border: 1px solid #d0d0d0;
+    line-height: 22px
+}
+.itemCmt_text a:hover{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*foot*/
+.foot{    padding: 40px 0;  background: #D4D4D4; }
+
+.foot a{    color: black;  }
+.foot a:hover{  color:red   }
+.foot p{
+    font-size: 14px;
+    font-family: "宋体";
+    text-align: center;
+    height: 24px;
+}
+
+.webLogo{
+    padding-bottom: 40px;
+}
+.webLogo a{
+    margin: 0 17px;
+    padding-top: 10px;}
+.webLogo img{
+    margin-top: 20px;
+}
+
+
+
+
